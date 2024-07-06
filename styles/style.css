@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F3F5FC;
+  padding: 1.5rem;
+  color: #A5B5CA;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+}
+
+.logo{
+  display: flex;
+  width: 40%;
+  height: 9%;
+}
+
+.areaPrincipal {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+
+::placeholder {
+  color: #090b75;
+  opacity: 0.9;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  height: 85vh;
+}
+
+.retangulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 32px;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.retangulo img {
+  width: 80%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.retangulo h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #221183;
+  margin: 1.5rem;
+}
+
+.retangulo p {
+  text-align: center;
+  font-size: 1rem;
+  color: #3670c7;
+  padding: 1rem;
+  width: 100%;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.areaDeTexto {
+  font-size: 2rem;
+  border: none;
+  background: none;
+  box-shadow: none;
+  appearance: none;
+  outline: none;
+  resize: none;
+  cursor: text;
+  color: #710a46;
+  width: 100%;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.botoes span {
+  display: flex;
+  align-items: center;
+  color: #57494d;
+}
+
+.botoes2 {
+  display: flex;
+  width: 100%;
+  gap: 10%;
+}
+
+.bot {
+  width: 45%;
+  height: 50px;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.Cript {
+  background-color: #aa2e6c;
+  color: #ffffff;
+  border: 2px solid #000000;
+}
+
+.Descript {
+  background-color: #D8DFE8;
+  color: #0A3871;
+  border: 1px solid #000000;
+}
+
+.Copy {
+  background-color: #ffffff;
+  border: 1px solid #0A3871;
+  width: 200px;
+}
+
+.none {
+  display: none;
+}

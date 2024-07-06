@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geovani</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="logo">
+        <img src="/assets/tudobem.png" alt="logoDoRe">
+    </header>
+    <main>
+        <div class="areaPrincipal">
+            <form action="">
+                <textarea id="texto" class="areaDeTexto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+                <div class="botoes">
+                    <span><img src="assets/frame1.png" alt="Icone de alerta"></span>
+                    <div class="botoes2">
+                        <button class="bot Cript" type="button" onclick="criptografar()">Criptografar</button>
+                        <button class="bot Descript" type="button" onclick="descriptografar()">Descriptografar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <aside >
+            <div class="retangulo">
+                <img src="/assets/teste2.png" alt="">
+                <div class="textoProvi">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p id="textoCriptografado">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <button class="bot Copy" style="display: none;" onclick="copiarTexto()">Copiar</button>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <script src="javascript/js.js"></script>
+</body>
+</html>
